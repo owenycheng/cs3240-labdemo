@@ -1,5 +1,7 @@
 from helper import greeting
 
+def add(a,b):
+    greeting(a+b)
+
 if __name__ == '__main__':
-    greeting("hello")
-    greeting("bye")
+    add(1,2)
